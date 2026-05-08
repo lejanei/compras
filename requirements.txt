@@ -1,0 +1,10 @@
+streamlit
+pandas
+reportlab
+qrcode
+pillow
+requests
+python-dotenv
+SQLAlchemy
+PyMySQL
+cryptography
