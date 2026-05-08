@@ -24,7 +24,7 @@ def tela_login():
             if user:
                 st.session_state.logado=True; st.session_state.usuario=user[0]; st.session_state.nome=user[1]; st.session_state.perfil=user[2]; st.rerun()
             else: st.error('Usuário ou senha inválidos.')
-        st.info('admin/admin123 | aprovador/ap123 | operador/op123')
+        #st.info('admin/admin123 | aprovador/ap123 | operador/op123')
 
 def tela_dashboard():
     st.subheader('📊 Dashboard'); pedidos=carregar_pedidos()
